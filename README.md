@@ -42,6 +42,10 @@ Click on the file panel Use the keyboard shortcut [⌥⌘C], and bam!, the full 
 
 Instantly get to where  your code lives on your machine. Save time by right-click on a folder or file, and select [Reveal in Finder] or [Open in Terminal]. Need the path just click [Copy Path].
 
+### Save one or Save all by Group
+
+Take a look at icon on the browser panel.
+
 ## 2. Preview your README.md
 
 VSC offers a live rendering of your markdown. To view it, right-click on your markdown file and select [Open Preview].
@@ -90,5 +94,3 @@ What the heck is this for?
 
 I am sure there are a ton of other great stuff one can do with Visual Studio Code. 
 Hopefully this tutorial has heightened your interest.
-
-- Koshlan Feburary 21, 2020
