@@ -91,7 +91,7 @@ The breakpoint is placed on line 51 at the source of the error:
 "Step Into" the error (that is, go to the function being called) by clicking on the downward blue arrow. 
 Then, step line by line through the problematic function and check whether state of all variables meet your expectations.
 
-![error2 1](https://user-images.githubusercontent.com/46639063/75188401-edd50a80-5700-11ea-9836-9d400300510
+![error2 1](https://user-images.githubusercontent.com/46639063/75188401-edd50a80-5700-11ea-9836-9d400300510d.png)
 
 * More: https://code.visualstudio.com/docs/python/debugging
 
