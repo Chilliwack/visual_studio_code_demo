@@ -89,6 +89,7 @@ A great thing about VSCode is how it organizes your test. You can even run them 
 Let's look at a resolving a merge conflict.
 
 I think we should start local!
+I think we should think global!
 
 ## 9. settings.json
 
