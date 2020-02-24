@@ -44,7 +44,7 @@ Instantly get to where your code lives on your machine. Save time by right-click
 
 ### Save one or Save all by Group
 
-Take a look at the icon on the browser panel.
+Take a look at the icon on the browser panel. You can, with one-click, save all the files or all the files in a group.
 
 ## 2. Preview your README.md
 
@@ -62,6 +62,11 @@ Linters help you find problems quickly. These are reported in the Problems tab o
 * No-bare URLs (see in the first block)
 
 Get to the problems quickly with this shortcut [⇧⌘ M].
+
+![Problems and Their Fixes](https://user-images.githubusercontent.com/46639063/75186808-8c5f6c80-56fd-11ea-91c3-1d09b401b734.png)
+
+Here you can see tests that are failing, and "lint" that's piling up in your code. One of the things, I like about VSCode is that
+you can auto-correct simple problems like those above without even having to search through the code.
 
 ## 5. Debugging
 
