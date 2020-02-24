@@ -1,4 +1,4 @@
-from . import hello
+import hello
 
 def sentance_case_to_be_degbugged(s:str):
     """
@@ -20,7 +20,7 @@ def sentance_case(s:str):
     'Camel'
     """
     return(s[0].upper() + s[1:].lower())
-
+ 
 def hello_any_world(language:str= 'Swahili'):
     """
     Return hello in most languages
@@ -47,4 +47,7 @@ if __name__ == "__main__":
     # python hi.py (will only tell you if tests failed)
     # python hi.py -v (will show you the number of tests that passed)
     doctest.testmod()
-    assert sentance_case_to_be_degbugged("Camel") == "Camel"
+    try:
+        assert sentance_case_to_be_degbugged("Camel") == "Camel"
+    except AssertionError as exc:
+        print(exc)
