@@ -72,7 +72,7 @@ you can auto-correct simple problems like those above without even having to sea
 
 When we run python hi.py we see an error. Suppose we want to see where that error emerges.
 
-```
+```bash
 Traceback (most recent call last):
   File "greetings/hi.py", line 51, in <module>
     assert sentance_case_to_be_degbugged("Camel") == "Camel"
@@ -83,17 +83,16 @@ AssertionError
 * Click the Bug with the play icon
 * We can start at the source of the error and move inwards
 
-
 The breakpoint is placed on line 51 at the source of the error:
 
 ![error1](https://user-images.githubusercontent.com/46639063/75187868-d9444280-56ff-11ea-9893-e2a2fa064875.png)
 
-"Step Into" the error (that is, go to the function being called) by clicking on the downward blue arrow. 
+"Step Into" the error (that is, go to the function being called) by clicking on the downward blue arrow.
 Then, step line by line through the problematic function and check whether state of all variables meet your expectations.
 
 ![error2 1](https://user-images.githubusercontent.com/46639063/75188401-edd50a80-5700-11ea-9836-9d400300510d.png)
 
-* More: https://code.visualstudio.com/docs/python/debugging
+* More: <https://code.visualstudio.com/docs/python/debugging>
 
 ## 6. Work on a Specific Unit Test
 
@@ -107,19 +106,17 @@ A great thing about VSCode is how it organizes your test. You can even run them 
 
 ![peak](https://user-images.githubusercontent.com/46639063/75184186-d98d0f80-56f8-11ea-8e67-cd76626992f0.png)
 
-
 ## 8. Look at a Merge Conflict
 
 Let's look at resolving a merge conflict. A merge conflict often arises when two users commit changes to the same file. For instance, on GitHub, I wrote:
 
-
-```
+```bash
 I think we should think global!
 ```
 
 But on my laptop, I wrote:
 
-```
+```bash
 I think we should start local!
 ```
 
@@ -127,8 +124,7 @@ When I tried to, push the second commit, my push was rejected:
 
 ![Fail to Push](https://user-images.githubusercontent.com/46639063/75186423-b5333200-56fc-11ea-93e8-1aae785bc57c.png)
 
-
-So I pulled the version on GitHub that was one commit ahead, revealing a conflict without an auto-resolution. Git cannot merge two versions of the same file, if they have different content on the same line! How would git know which was correct? 
+So I pulled the version on GitHub that was one commit ahead, revealing a conflict without an auto-resolution. Git cannot merge two versions of the same file, if they have different content on the same line! How would git know which was correct?
 
 ![Merge Conlict](https://user-images.githubusercontent.com/46639063/75185762-810b4180-56fb-11ea-810d-2560939496be.png)
 
@@ -140,14 +136,16 @@ After resolving the conflict, remember to commit and push the resolution.
 
 ## 9. settings.json
 
-JSON file with all your settings. How to get to it. (see the common settings wheel at the lower left)
+JSON file with all your user-specific settings. How to get to it? (see the common settings wheel at the lower left)
+
+![where is settngs dot json](https://user-images.githubusercontent.com/46639063/75194760-9ab58480-570d-11ea-95ed-d44fd5805197.png)
+≈
 
 ## 10. the .code-workspace file
 
-What the heck is this for?
+These apply to your specific workspace (project specific)?
 
+## Conclusions
 
-## Conclusions:
-
-I am sure there are a ton of other great stuff one can do with Visual Studio Code. 
+I am sure there are a ton of other great stuff one can do with Visual Studio Code.
 Hopefully, this tutorial has heightened your interest.
