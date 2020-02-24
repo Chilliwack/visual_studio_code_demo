@@ -89,10 +89,9 @@ The breakpoint is placed on line 51 at the source of the error:
 ![error1](https://user-images.githubusercontent.com/46639063/75187868-d9444280-56ff-11ea-9893-e2a2fa064875.png)
 
 "Step Into" the error (that is, go to the function being called) by clicking on the downward blue arrow. 
-Now,  tep line by line through the problematic function and check whether state of all variables meet your expectations.
+Then, step line by line through the problematic function and check whether state of all variables meet your expectations.
 
-![error2](https://user-images.githubusercontent.com/46639063/75187869-d9dcd900-56ff-11ea-922d-f571076779b4.png)
-
+![error2 1](https://user-images.githubusercontent.com/46639063/75188401-edd50a80-5700-11ea-9836-9d400300510
 
 * More: https://code.visualstudio.com/docs/python/debugging
 
