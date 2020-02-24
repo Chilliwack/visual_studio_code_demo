@@ -47,7 +47,5 @@ if __name__ == "__main__":
     # python hi.py (will only tell you if tests failed)
     # python hi.py -v (will show you the number of tests that passed)
     doctest.testmod()
-    try:
-        assert sentance_case_to_be_degbugged("Camel") == "Camel"
-    except AssertionError as exc:
-        print(exc)
+
+    assert sentance_case_to_be_degbugged("Camel") == "Camel"

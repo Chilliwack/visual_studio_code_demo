@@ -72,8 +72,28 @@ you can auto-correct simple problems like those above without even having to sea
 
 When we run python hi.py we see an error. Suppose we want to see where that error emerges.
 
+```
+Traceback (most recent call last):
+  File "greetings/hi.py", line 51, in <module>
+    assert sentance_case_to_be_degbugged("Camel") == "Camel"
+AssertionError
+```
+
 * Breakpoints fn + F9, or using the mouse by clicking in the left margin in the editor.
 * Click the Bug with the play icon
+* We can start at the source of the error and move inwards
+
+
+The breakpoint is placed on line 51 at the source of the error:
+
+![error1](https://user-images.githubusercontent.com/46639063/75187868-d9444280-56ff-11ea-9893-e2a2fa064875.png)
+
+"Step Into" the error (that is, go to the function being called) by clicking on the downward blue arrow. 
+Now,  tep line by line through the problematic function and check whether state of all variables meet your expectations.
+
+![error2](https://user-images.githubusercontent.com/46639063/75187869-d9dcd900-56ff-11ea-922d-f571076779b4.png)
+
+
 * More: https://code.visualstudio.com/docs/python/debugging
 
 ## 6. Work on a Specific Unit Test
