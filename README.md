@@ -86,10 +86,30 @@ A great thing about VSCode is how it organizes your test. You can even run them 
 
 ## 8. Look at a Merge Confict
 
-Let's look at a resolving a merge conflict.
+Let's look at a resolving a merge conflict. A merge conflict often arises when two user commit changes to the same file. For instance, on GitHub , I wrote:
 
-I think we should start local!
+
+```
 I think we should think global!
+```
+
+But on my laptop, I wrote:
+
+```
+I think we should start local!
+```
+
+When I tried to, push the second commit, my push was rejected:
+
+So I pulled the version on GitHub that was one commit ahead, revealing a conflict without an auto-resolution. Git cannot merge two versions of the same file, if they have different content on the same line! How would git know which was correct? 
+
+![Merge Conlict](https://user-images.githubusercontent.com/46639063/75185762-810b4180-56fb-11ea-810d-2560939496be.png)
+
+Fortunately, VSCode makes it really easy to review the confict, and pick the winner (or keep both, by appending a version as new lines of code).
+
+![Resolve Merge Conflict](https://user-images.githubusercontent.com/46639063/75185767-82d50500-56fb-11ea-8da1-4d32fddabe7c.png)
+
+After resolving the conflict, remember to commmit and push the resolution.
 
 ## 9. settings.json
 
