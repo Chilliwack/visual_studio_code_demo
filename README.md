@@ -10,7 +10,7 @@ Here are some reasons to take a look at Visual Studio Code.
 2. Add the following four key extensions (Code Runner 0.9.16, Python, and R, markdownlint).
     * Do this by clicking on the four box icon on the left sidebar.
     * Search for the extensions by name and install
-3. Ensure you have a python >= 3.6e environment available.
+3. Ensure you have a python >= 3.6 environment available.
 
 ## Shortcuts for Mac
 
@@ -147,9 +147,12 @@ JSON file with all your user-specific settings. How to get to it? (see the commo
 ![where is settngs dot json](https://user-images.githubusercontent.com/46639063/75194760-9ab58480-570d-11ea-95ed-d44fd5805197.png)
 ≈
 
-## 10. the .code-workspace file
+### the .code-workspace file
 
 These apply to your specific workspace (project specific)?
+
+## 10. Switch effortlessly between environments
+
 
 ## Conclusions
 
