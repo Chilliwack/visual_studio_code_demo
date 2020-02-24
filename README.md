@@ -1,6 +1,6 @@
-# Visual Studio Code for Data Science
+# Visual Studio Code for the Busy Scientist
 
-A quick demonstration. Some really fantastic scientific programmers
+A quick demonstration. Some fantastic scientific programmers
 wait a long-time before trying a modern IDE.
 Here are some reasons to take a look at Visual Studio Code.
 
@@ -8,7 +8,7 @@ Here are some reasons to take a look at Visual Studio Code.
 
 1. Install Visual Studio Code (https://code.visualstudio.com/)
 2. Add the following four key extensions (Code Runner 0.9.16, Python, and R, markdownlint).
-    * Do this by clicking on the four box icon on the left side bar.
+    * Do this by clicking on the four box icon on the left sidebar.
     * Search for the extensions by name and install
 3. Ensure you have a python >= 3.6e environment available.
 
@@ -40,11 +40,11 @@ Click on the file panel Use the keyboard shortcut [⌥⌘C], and bam!, the full 
 
 ### Reveal Paths with Clicks
 
-Instantly get to where  your code lives on your machine. Save time by right-click on a folder or file, and select [Reveal in Finder] or [Open in Terminal]. Need the path just click [Copy Path].
+Instantly get to where your code lives on your machine. Save time by right-clicking on a folder or file, and select [Reveal in Finder] or [Open in Terminal]. Need the path just click [Copy Path].
 
 ### Save one or Save all by Group
 
-Take a look at icon on the browser panel.
+Take a look at the icon on the browser panel.
 
 ## 2. Preview your README.md
 
@@ -56,7 +56,7 @@ You can run a segment of a script by selecting the part you care about and hitti
 
 ## 4. Problems and Quick Their Quick Fixes
 
-Linters help you find probelms quickly. These are reported in the Problems tab of the  Here are two examples. 
+Linters help you find problems quickly. These are reported in the Problems tab of the  Here are two examples. 
 
 * No-trailing-spaces (see one line above)
 * No-bare URLs (see in the first block)
@@ -67,7 +67,7 @@ Get to the problems quickly with this shortcut [⇧⌘ M].
 
 When we run python hi.py we see an error. Suppose we want to see where that error emerges.
 
-* Breakpoints fn + F9 , or using the mouse by clicking in the left margin in the editor.
+* Breakpoints fn + F9, or using the mouse by clicking in the left margin in the editor.
 * Click the Bug with the play icon
 * More: https://code.visualstudio.com/docs/python/debugging
 
@@ -79,14 +79,14 @@ A great thing about VSCode is how it organizes your test. You can even run them 
 
 ## 7. Peak Function is Some Serious Magic Beans
 
- Sometimes you don't want to search for where a variable or function is defined. VSCode has a peak funciton that lets examine externally referenced objects, and even edit them, directly from where an object is referenced. Let's look at what the French hello should be:
+ Sometimes you don't want to search for where a variable or function is defined. VSCode has a peak function that let's examine externally referenced objects, and even edit them, directly from where an object is referenced. Let's look at what the French hello should be:
 
 ![peak](https://user-images.githubusercontent.com/46639063/75184186-d98d0f80-56f8-11ea-8e67-cd76626992f0.png)
 
 
-## 8. Look at a Merge Confict
+## 8. Look at a Merge Conflict
 
-Let's look at a resolving a merge conflict. A merge conflict often arises when two user commit changes to the same file. For instance, on GitHub , I wrote:
+Let's look at resolving a merge conflict. A merge conflict often arises when two users commit changes to the same file. For instance, on GitHub, I wrote:
 
 
 ```
@@ -101,15 +101,18 @@ I think we should start local!
 
 When I tried to, push the second commit, my push was rejected:
 
+![Fail to Push](https://user-images.githubusercontent.com/46639063/75186423-b5333200-56fc-11ea-93e8-1aae785bc57c.png)
+
+
 So I pulled the version on GitHub that was one commit ahead, revealing a conflict without an auto-resolution. Git cannot merge two versions of the same file, if they have different content on the same line! How would git know which was correct? 
 
 ![Merge Conlict](https://user-images.githubusercontent.com/46639063/75185762-810b4180-56fb-11ea-810d-2560939496be.png)
 
-Fortunately, VSCode makes it really easy to review the confict, and pick the winner (or keep both, by appending a version as new lines of code).
+Fortunately, VSCode makes it easy to review the confict and pick the winner (or keep both, by appending a version as new lines of code).
 
 ![Resolve Merge Conflict](https://user-images.githubusercontent.com/46639063/75185767-82d50500-56fb-11ea-8da1-4d32fddabe7c.png)
 
-After resolving the conflict, remember to commmit and push the resolution.
+After resolving the conflict, remember to commit and push the resolution.
 
 ## 9. settings.json
 
@@ -123,4 +126,4 @@ What the heck is this for?
 ## Conclusions:
 
 I am sure there are a ton of other great stuff one can do with Visual Studio Code. 
-Hopefully this tutorial has heightened your interest.
+Hopefully, this tutorial has heightened your interest.
