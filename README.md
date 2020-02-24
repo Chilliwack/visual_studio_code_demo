@@ -100,6 +100,12 @@ A great thing about VSCode is how it organizes your test. You can even run them 
 
 ![tests](https://user-images.githubusercontent.com/46639063/75184229-ea3d8580-56f8-11ea-83d3-1ee87fec849c.png)
 
+Also here is an easter egg if you like doctests:
+
+```bash
+pytest --doctest-modules -v
+```
+
 ## 7. Peak Function is Some Serious Magic Beans
 
  Sometimes you don't want to search for where a variable or function is defined. VSCode has a peak function that let's examine externally referenced objects, and even edit them, directly from where an object is referenced. Let's look at what the French hello should be:
