@@ -71,11 +71,18 @@ When we run python hi.py we see an error. Suppose we want to see where that erro
 * Click the Bug with the play icon
 * More: https://code.visualstudio.com/docs/python/debugging
 
-## 6. Work on a Specif Unit Test
+## 6. Work on a Specific Unit Test
+
+A great thing about VSCode is how it organizes your test. You can even run them one by one.
+
+![tests](https://user-images.githubusercontent.com/46639063/75184229-ea3d8580-56f8-11ea-83d3-1ee87fec849c.png)
 
 ## 7. Peak Function is Some Serious Magic Beans
 
-Let's look at what the French hello should be.
+ Sometimes you don't want to search for where a variable or function is defined. VSCode has a peak funciton that lets examine externally referenced objects, and even edit them, directly from where an object is referenced. Let's look at what the French hello should be:
+
+![peak](https://user-images.githubusercontent.com/46639063/75184186-d98d0f80-56f8-11ea-8e67-cd76626992f0.png)
+
 
 ## 8. Look at a Merge Confict
 
